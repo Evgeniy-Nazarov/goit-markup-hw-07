@@ -1,8 +1,8 @@
-.menu-button .btn-menu-portfolio + .btn-menu-portfolio {
+.portfolio__button .portfolio__button-item + .portfolio__button-item {
   margin-left: 8px;
 }
 
-.btn-menu-portfolio {
+.portfolio__button-item {
   background-color: #f5f4fa;
 }
 
@@ -11,7 +11,7 @@
   padding-bottom: 94px;
 }
 
-.menu-button {
+.portfolio__button {
   display: flex;
   justify-content: center;
 }
@@ -22,38 +22,40 @@
   flex-wrap: wrap;
 }
 
-.menu-list {
+.main-menu__item {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
 }
 
-.menu-list {
+.main-menu__item {
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-list:hover {
+.main-menu__item:hover {
   background-color: #ffffff;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.menu-list:nth-child(3n) {
+.main-menu__item:nth-child(3n) {
   margin-right: 0;
 }
 
-.menu-list:hover .main-image-text {
+.main-menu__item:hover .main-menu__text {
   transform: translateY(0);
 }
 
-.menu-border {
+.main-menu__border {
   padding: 20px 24px;
   border-left: solid 1px #ececec;
   border-right: solid 1px #ececec;
   border-bottom: solid 1px #ececec;
 }
 
-.menu-title {
+.main-menu__title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -61,7 +63,7 @@
   color: var(--first-text-color);
 }
 
-.menu-subtitle {
+.main-menu__subtitle {
   margin-top: 4px;
   font-weight: normal;
   font-size: 16px;
@@ -82,16 +84,19 @@
   background-color: #f5f4fa;
   border-radius: 4px;
   border: 0;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-portfolio:hover, .btn-portfolio:focus {
+.btn-portfolio:hover,
+.btn-portfolio:focus {
   color: var(--primary-title-color);
   background-color: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.main-image-text {
+.main-menu__text {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -109,7 +114,7 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-list-wrapper {
+.main-menu__item-wrapper {
   position: relative;
   overflow: hidden;
 }
