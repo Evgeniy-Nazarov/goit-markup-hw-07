@@ -1,4 +1,4 @@
-.social-item {
+.social-list__item {
   width: 44px;
   height: 44px;
   margin-right: 10px;
@@ -8,18 +8,18 @@
   }
 }
 
-.command-icon {
+.social-list {
   margin-top: 16px;
 }
 
-.command-list {
+.command__list {
   display: flex;
 }
-.command-list .command-item + .command-item {
+.command__list .command__item + .command__item {
   margin-left: 30px;
 }
 
-.command-item {
+.command__item {
   align-items: center;
   padding-top: 0px;
   padding-bottom: 30px;
@@ -29,12 +29,12 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.command-link {
+.command__link {
   width: 270px;
   height: 260px;
 }
 
-.command-name {
+.command__name {
   margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
@@ -45,7 +45,7 @@
   color: var(--first-text-color);
 }
 
-.command-profession {
+.command__profession {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
@@ -54,6 +54,6 @@
   color: var(--second-text-color);
 }
 
-.command-gallery {
+.command__item {
   flex-basis: calc(100% / 4-30px);
 }
