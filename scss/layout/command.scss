@@ -2,19 +2,14 @@
   width: 44px;
   height: 44px;
   margin-right: 10px;
-}
 
-.social-icon {
-  fill: rgba(175, 177, 184, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .command-icon {
   margin-top: 16px;
-}
-
-.social-item:last-child {
-  margin-right: 0;
 }
 
 .command-list {
@@ -29,13 +24,11 @@
   padding-top: 0px;
   padding-bottom: 30px;
   background-color: var(--primary-title-color);
-}
-
-.command-item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
 .command-link {
   width: 270px;
   height: 260px;
