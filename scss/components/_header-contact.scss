@@ -1,21 +1,21 @@
-.header-tel:hover .header-icon,
-.header-tel:focus .header-icon {
+.contact-menu__tel:hover .contact-menu__icon,
+.contact-menu__tel:focus .contact-menu__icon {
   fill: var(--accent-color);
 }
 
-.contact-item {
+.contact-menu__item {
   display: flex;
   align-items: center;
 }
 
-.header-mail,
-.header-tel {
+.contact-menu__mail,
+.contact-menu__tel {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.header-tel {
+.contact-menu__tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -29,7 +29,7 @@
   }
 }
 
-.header-mail {
+.contact-menu__mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -42,8 +42,8 @@
     color: var(--accent-color);
   }
 
-  &:hover .header-icon,
-  &:focus .header-icon {
+  &:hover .contact-menu__icon,
+  &:focus .contact-menu__icon {
     fill: var(--accent-color);
   }
 }
