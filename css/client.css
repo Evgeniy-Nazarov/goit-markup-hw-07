@@ -1,3 +1,8 @@
+.client {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .client__title {
   font-weight: 700;
   font-size: 36px;
@@ -5,12 +10,12 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  padding-bottom: 50px;
 }
 
 .client__list {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .client__item {
