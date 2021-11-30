@@ -1,4 +1,4 @@
-.visually-text {
+.visually__text {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -18,7 +18,7 @@
   padding-bottom: 27px;
 }
 
-.visually-title {
+.second-title {
   text-align: center;
   height: 42px;
   margin-bottom: 50px;
@@ -30,12 +30,12 @@
   color: var(--first-text-color);
 }
 
-.gallery-list {
+.visually__list {
   display: flex;
   margin-right: -30px;
 }
 
-.gallery-item {
+.visually__item {
   width: 370px;
   height: 294px;
   position: relative;
@@ -44,11 +44,11 @@
   overflow: hidden;
 }
 
-.gallery-item .gallery-item + .gallery-item {
+.visually__item .visually__item + .visually__item {
   margin-left: 30px;
 }
 
-.gallery-link {
+.visually__link {
   width: 370px;
   height: 294px;
 }
