@@ -10,7 +10,7 @@
         "../scss/components/_footer-contact.scss",
         "../scss/components/_container.scss",
         "../scss/components/_section.scss",
-        "../scss/components/_modal-btn.scss",
+        "../scss/components/_modal__btn.scss",
         "../scss/components/_social.scss",
         "../scss/components/_backdrop.scss",
         "../scss/components/_modal.scss",
