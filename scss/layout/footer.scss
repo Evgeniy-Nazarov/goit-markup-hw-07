@@ -1,4 +1,4 @@
-.footer-container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
@@ -9,7 +9,7 @@
   justify-content: center;
 }
 
-.footer-social-text {
+.footer-social__text {
   margin-bottom: 20px;
   font-family: Roboto;
   font-style: normal;
@@ -21,7 +21,7 @@
   color: var(--primary-title-color);
 }
 
-.footer-information {
+.footer_information {
   display: block;
   margin-right: 70px;
 }
