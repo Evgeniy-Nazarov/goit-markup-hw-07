@@ -1,15 +1,15 @@
-.contact-menu-footer {
+.footer__contact-menu {
   flex-direction: column;
 }
 
-.footer-adress {
+.footer__adress {
   font-style: inherit;
   width: 231px;
   height: 81px;
   margin-top: 20px;
 }
 
-.footer-map {
+.footer__map {
   margin-bottom: 9px;
   font-weight: normal;
   font-size: 14px;
@@ -24,7 +24,7 @@
   }
 }
 
-.footer-mail {
+.footer__mail {
   margin-bottom: 9px;
   font-weight: normal;
   font-size: 14px;
@@ -39,7 +39,7 @@
   }
 }
 
-.footer-tel {
+.footer__tel {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
