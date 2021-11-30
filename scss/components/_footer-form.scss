@@ -1,11 +1,11 @@
-.footer-form-wrapper {
+.footer-form__wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
 }
 
-.footer-form-input {
+.footer-form__input {
   color: var(--primary-title-color);
   padding-left: 16px;
   width: 358px;
@@ -28,7 +28,7 @@
   }
 }
 
-.footer-form-text-link {
+.footer-form__text {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -39,11 +39,11 @@
   color: #ffffff;
 }
 
-.form-footer {
+.footer-form {
   margin-left: 93px;
 }
 
-.footer-form-button {
+.footer-form__button {
   cursor: pointer;
   margin-left: 12px;
   padding-left: 29px;
@@ -65,10 +65,10 @@
   color: #ffffff;
 }
 
-.footer-form-icon {
+.footer-form__icon {
   margin-left: 10px;
 }
 
-.footer-form-field {
+.footer-form__field {
   display: flex;
 }
